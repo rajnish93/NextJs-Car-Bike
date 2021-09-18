@@ -8,13 +8,17 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "dependencies": {
+ "dependencies": {
     "next": "11.1.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.1",
+    "twin.macro": "^2.7.0"
   },
   "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2"
+    "autoprefixer": "^10.2.6",
+    "babel-plugin-twin": "^1.0.2",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.15"
   }
 }
