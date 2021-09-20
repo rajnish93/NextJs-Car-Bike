@@ -8,10 +8,12 @@
     "start": "next start",
     "lint": "next lint"
   },
- "dependencies": {
+  "dependencies": {
     "next": "11.1.2",
     "react": "^17.0.2",
+    "react-burger-menu": "^3.0.6",
     "react-dom": "^17.0.2",
+    "react-responsive": "^8.2.0",
     "styled-components": "^5.3.1",
     "twin.macro": "^2.7.0"
   },
