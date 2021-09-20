@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { SCREENS } from "../../components/responsive";
 import TharCarImg from "../../assets/images/2020-Mahindra-Thar.png";
 import BlobImg from "../../assets/images/blob.svg";
+import { Button } from "../../components/button";
 const TopSectionContainer = styled.div` min-height : 400px margin-top: 6em ${tw` w-full max-w-screen-2xl flex justify-between lg:pl-12 lg:pr-12 pl-3 pr-3 `} `;
 const LeftContainer = styled.div`
   ${tw` w-1/2 flex flex-col `}
@@ -78,6 +79,9 @@ const StandaloneCar = styled.div`
     top: -9em;
   }
 `;
+const ButtonContainer = styled.div`
+  ${tw` flex flex-row mt-3 flex-wrap`};
+`;
 export function TopSection() {
   return (
     <TopSectionContainer>
@@ -88,6 +92,10 @@ export function TopSection() {
           best Car &amp; Bike from our local stores or order it remotely at the
           best price.
         </Description>
+        <ButtonContainer>
+          <Button text="Book Now" />
+          {/* <Button theme="filled" text="Book Now" /> */}
+        </ButtonContainer>
       </LeftContainer>
       <RightContainer>
         <BlobContainer>
